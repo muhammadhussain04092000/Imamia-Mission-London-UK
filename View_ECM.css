@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-top: -16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.nav {
+    background-color: #258d14;
+    color: #fffdf9;
+    display: flex;
+}
+
+.nav-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+
+.nav-title {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3em;
+    width: 305px;
+    word-wrap: break-word;
+}
+
+.nav-menu {
+    padding-top: 90px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.active a {
+    background-color: #fffdf9;
+    color: #414141;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+.scroll {
+    margin-right: 1em;
+    margin-left: 1em;
+    height: 726px;
+    grid-area: s;
+    margin: 0;
+    overflow-y: scroll;
+    background-color: #414141;
+}
+
+.scroll h1 {
+    font-family: 'Merriweather', sans-serif;
+    color: #3da568;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #414141;}
+
+#customers tr:hover {background-color: #625f5f;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #258d14;
+    color: white;
+}

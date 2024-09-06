@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Images/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imamia Mission London UK</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3bf10b99f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="nav">
+        <div class="nav-brand">
+            <h1 class="nav-title">Imamia Mission<br>London UK</h1>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li class="nav-link active"><a href="./admin.html">Home</a></li>
+                <li class="nav-link"><a href="./View_CM.php">Committee Members</a></li>
+                <li class="nav-link"><a href="./View_Jaloos.php">Jaloos Volunteers</a></li>
+                <li class="nav-link"><a href="./View_Jaloos_Form_Responses.php">Jaloos Volunteer Responses</a></li>
+                <li class="nav-link"><a href="./View_Contact.php">Contact Form Responses</a></li>
+                <li class="nav-link"><a href="./Logout.php">Log Out</a></li>
+        </div>
+    </section>
+    <section class="scroll">
+        <section class="modal" id="login">
+            <form class="modal-content animate" action="Add_ECM.php" method="POST">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="./Images/img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label><b>Name</b></label>
+                    <input type="text" placeholder="Enter Name" name="name" required>
+                    <label><b>Role</b></label>
+                    <input type="text" placeholder="Enter role" name="role" required>
+                    <label><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+                    <label><b>Phone Number</b></label>
+                    <input type="tel" placeholder="Enter Phone Number" name="tel" required>
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="u_name" required>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pwd_name" required>
+                    <button type="submit">Login</button>
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#" style="color: #258d14;">password?</a></span>
+                </div>
+            </form>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

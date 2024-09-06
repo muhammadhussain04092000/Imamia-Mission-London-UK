@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-top: -16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.nav {
+    background-color: #258d14;
+    color: #fffdf9;
+    display: flex;
+}
+
+.nav-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+}
+
+.nav-title {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3em;
+    width: 305px;
+    word-wrap: break-word;
+}
+
+.nav-menu {
+    padding-top: 90px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.active a {
+    background-color: #fffdf9;
+    color: #414141;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+.scroll {
+    margin-right: 1em;
+    margin-left: 1em;
+    height: 726px;
+    grid-area: s;
+    margin: 0;
+    overflow-y: scroll;
+    background-color: #414141;
+}
+
+.scroll h1 {
+    font-family: 'Merriweather', sans-serif;
+    color: #3da568;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.cards {
+    width: 44%;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 40px;
+    border: 1px solid white;
+}
+
+
+.image img {
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
+
+.des {
+    text-align: center;
+    padding: 0px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #258d14;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.89;
+    transition: 0.3s;
+    cursor: pointer;
+}
